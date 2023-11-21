@@ -1,177 +1,353 @@
-Timestamp,YearOfStudy,EnglishFirstLanguage,Query,Respondent,Duplicate ID,Test,Topic,ChatMatch,TrueMatch,Reason,MatchedQuery,Word2Vec_similarity
-2023-10-10,3,True,where is the nicol building located,1,0.0,False,Campus,,,,,
-2023-10-10,3,True,when does the caf open,1,1.0,False,Campus,,,,,
-2023-10-10,3,True,where can i check my courses,2,,True,Multiple Topics,,-1.0,,,
-2023-10-10,3,True,where is a good place to eat on campus,2,3.0,True,Campus,13.0,0.0,Specific ,Where is the health center located,0.6032971143722534
-2023-10-10,3,True,where can i park on campus,2,4.0,True,Transportation and Parking,28.0,1.0,,Where can I park when visiting the campus,0.8436899185180664
-2023-10-10,3,True,when are exams taking place this year,2,5.0,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.6106574535369873
-2023-10-10,3,True,when can i register for summer classes,2,6.0,True,Academic Calendar,55.0,0.0,Specific ,How do I register for classes,0.8248744010925293
-2023-10-10,2,True,how am i able to manage my time effectively while studying for tests exams,3,7.0,True,Academic Resources,44.0,0.0,Specific ,How can I get academic advising,0.706151008605957
-2023-10-10,2,True,when is the best time place to study for exams,3,7.0,True,Academic Resources,44.0,0.0,Specific ,How can I get academic advising,0.522342324256897
-2023-10-10,3,True,when is the deadline to enroll in summer 2024 classes,4,6.0,True,Academic Calendar,55.0,0.0,Specific ,How do I register for classes,0.6284700632095337
-2023-10-10,3,True,can you direct me to carleton university's exam schedule,5,5.0,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.49456775188446045
-2023-10-10,3,True,how do i book a room at carleton university,5,,True,Campus,14.0,1.0,,How do I book a room in the student union building,0.8201874494552612
-2023-10-10,3,True,what type of career services are offered at carleton university,5,,True,Career,134.0,0.0,General,Where is the career services office located and how can I schedule an appointment,0.7166969776153564
-2023-10-10,3,False,when is reading week,6,132.0,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.5395684242248535
-2023-10-10,3,False,when is reading week,6,132.0,False,Academic Calendar,,,,,
-2023-10-10,3,False,can i extend a letter of permission,6,,True,Study Abroad and Exchanges,,-1.0,,,
-2023-10-10,3,False,what time is the library open until,6,1.0,True,Campus,72.0,1.0,,What are the library's opening hours,0.6338119506835938
-2023-10-10,3,False,where is prof xyz's office,6,0.0,True,Campus,13.0,1.0,,Where is the health center located,0.4882860481739044
-2023-10-10,1,True,when will the otrain be functional at carleton,7,,True,Campus,229.0,0.0,Specific ,Are there any ongoing construction or expansion projects,0.47155946493148804
-2023-10-10,2,True,what gpa do you need to get in a good coop internship job,8,,True,Multiple Topics,,-1.0,,,
-2023-10-10,2,True,when is the next networking event for engineering students,9,,True,Career,171.0,0.0,Specific ,Are there any upcoming job fairs or recruitment drives,0.5287426710128784
-2023-10-10,1,False,what is the procedure for becoming a ta,10,21.0,True,Career,,-1.0,,,
-2023-10-10,4,True,where can i find the dates and deadlines calendar,11,,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.6015493869781494
-2023-10-10,4,True,when is the academic drop deadline,11,,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.6400949358940125
-2023-10-10,4,True,how do i drop a course,11,,True,Academic Calendar,132.0,1.0,,How do I add/drop courses after the initial registration,0.6713026165962219
-2023-10-10,1,False,where is herzberg building,12,0.0,False,Campus,,,,,
-2023-10-10,1,False,where is walmart,12,57.0,False,Community Engagement,,,,,
-2023-10-10,1,False,where can i find jobs,12,27.0,True,Career,171.0,0.0,General,Are there any upcoming job fairs or recruitment drives,0.5632560849189758
-2023-10-10,1,False,where can i find opportunities on campus,12,,True,Multiple Topics,,-1.0,,,
-2023-10-10,2,True,will i fail my classes,13,,True,Academic Resources,44.0,0.0,Specific ,How can I get academic advising,0.6240454316139221
-2023-10-10,4,True,where is the best place to study on campus,14,3.0,False,Campus,,,,,
-2023-10-10,4,True,what is best elective to take as an incoming second year,14,94.0,True,Academic Calendar,52.0,0.0,Specific ,What classes are available next semester,0.5412657856941223
-2023-10-10,4,True,when will the new residence building be finished,14,,True,Campus,229.0,0.0,Specific ,Are there any ongoing construction or expansion projects,0.49193185567855835
-2023-10-10,4,True,offer different potential paper titles using the following title,15,,False,out of scope,,,,,
-2023-10-10,4,True,what year was the united nations created etc,15,,False,out of scope,,,,,
-2023-10-10,2,False,what are the psychology academic advisor hours fall 2023,16,35.0,True,Academic Resources,44.0,1.0,,How can I get academic advising,0.6151564717292786
-2023-10-10,4,False,can you please generate some practice test questions for my psych class,17,,False,out of scope,,,,,
-2023-10-10,2,False,what is the best coffee shop at carleton,18,3.0,False,Campus,,,,,
-2023-10-10,1,False,where can i get my campus card,19,0.0,True,Campus,13.0,0.0,Specific ,Where is the health center located,0.44927486777305603
-2023-10-10,5,True,what type of food locations do you have on campus,20,,True,Campus,79.0,1.0,,What are the dining options on campus,0.7406734228134155
-2023-10-10,5,True,does the food locations accept dining dollars,20,,True,Housing,,-1.0,,,
-2023-10-10,5,True,when are the reading weeks,20,132.0,False,Academic Calendar,,,,,
-2023-10-10,5,True,what type of resources are avalible on campus,20,,True,Multiple Topics,,-1.0,,,
-2023-10-10,5,True,who should i reach out to about questions about my timetable,20,,True,Academic Calendar,,-1.0,,,
-2023-10-10,1,True,what type of individuals are eligible for the pmc accommodations,21,,True,Accessibility,347.0,1.0,,Is there a policy for requesting accommodations for disabilities or health conditions,0.7227609157562256
-2023-10-10,1,True,i can't imagine myself asking a chatbot anything,22,,False,out of scope,,,,,
-2023-10-10,4,True,what should i do after university,23,,True,Career,88.0,0.0,General,Are there any job placement services for graduates,0.544435977935791
-2023-10-10,4,True,options for my degree,23,,True,Multiple Topics,53.0,0.0,Vague,What undergraduate/graduate programs do you offer,0.5166393518447876
-2023-10-10,4,True,how do i get a coop position,24,,False,Career,,,,,
-2023-10-10,4,True,how to meet other carelton students,24,,True,Multiple Topics,,-1.0,,,
-2023-10-10,2,True,where can i find payment due dates,25,96.0,False,Financial Information,,,,,
-2023-10-10,2,True,where can i find my course schedule,26,,True,Academic Calendar,,-1.0,,,
-2023-10-10,2,True,how to drop minor element,27,110.0,True,Academic Calendar,169.0,1.0,,What's the process for changing my major or minor,0.5399445295333862
-2023-10-10,3,True,what's the probability i find a job after i graduate from mechanical engineering,28,,True,Career,,-1.0,,,
-2023-10-10,4,True,how to read my audit,29,54.0,True,Academic Resources,,-1.0,,,
-2023-10-10,4,True,how to navigate the tunnels,29,,True,Campus,,-1.0,,,
-2023-10-10,1,True,where is the nearest water fountain,30,0.0,True,Campus,13.0,0.0,Specific ,Where is the health center located,0.6031897664070129
-2023-10-10,1,True,where can i find cheep food near carleton,31,57.0,True,Community Engagement,173.0,0.0,Specific ,Are there any farmers' markets or local events near campus,0.5648341178894043
-2023-10-10,5,True,where do coroners' inquest jurors meet,32,,False,out of scope,,,,,
-2023-10-10,5,False,where can i find the best coffee on campus,33,3.0,False,Campus,,,,,
-2023-10-10,4,True,where is southam hall,34,0.0,False,Campus,,,,,
-2023-10-10,4,True,where are the microwaves,35,0.0,False,Campus,,,,,
-2023-10-10,2,True,where do i access past course outlines for my program,36,,True,Academic Resources,,-1.0,,,
-2023-10-10,2,True,how to i get involved with the school community,36,63.0,True,Community Engagement,115.0,0.0,General,How can I get involved in the university's green initiatives,0.7545514702796936
-2023-10-10,2,True,what's the course outline for  class,37,,True,Academic Resources,,-1.0,,,
-2023-10-10,2,True,what are some resources for market research,37,,True,Academic Resources,230.0,0.0,General,Do students have access to professional or industry databases,0.5623111724853516
-2023-10-10,2,True,when does examination period start,37,5.0,False,Academic Calendar,,,,,
-2023-10-10,2,True,where is the student support centre,38,0.0,False,Campus,,,,,
-2023-10-10,4,True,how do i find my degree requirements,39,,True,Academic Calendar,148.0,1.0,,Where can I find updated course requirements for my intended major,0.8109701871871948
-2023-10-10,2,True,where is the library,40,0.0,False,Campus,,,,,
-2023-10-10,1,False,where is library,41,0.0,False,Campus,,,,,
-2023-10-10,1,False,i emailed carleton computer science because one my courses got filled,42,168.0,True,Academic Calendar,,-1.0,,,
-2023-10-10,1,False,is it possible to customize a degree,43,,True,Academic Calendar,,-1.0,,,
-2023-10-10,1,False,where can i find the book store,44,0.0,False,Campus,,,,,
-2023-10-10,2,True,where can i find private study rooms in carleton,45,0.0,True,Campus,13.0,0.0,Specific ,Where is the health center located,0.5450879335403442
-2023-10-10,3,False,where can i find free parking on campus,46,4.0,True,Transportation and Parking,28.0,0.0,Specific,Where can I park when visiting the campus,0.7939999103546143
-2023-10-10,0,False,when does the bookstore close,47,1.0,False,Campus,,,,,
-2023-10-10,3,False,what is a virtual machine,48,,False,out of scope,,,,,
-2023-10-10,3,False,where can i find a water fountain in the nideniyan building after the cafeteria closes,49,0.0,True,Campus,13.0,0.0,Specific,Where is the health center located,0.6178122758865356
-2023-10-10,2,True,how to find my carleton transcript,50,,True,Graduation,24.0,1.0,,How can I request my transcripts,0.7912726998329163
-2023-10-10,3,True,where is my class located,51,0.0,False,Campus,,,,,
-2023-10-10,1,True,how to join club,52,81.0,True,Student Organizations,96.0,1.0,,How do I join the university's [specific club],0.6477604508399963
-2023-10-10,1,True,where can i find a map of a building,53,,True,Campus,78.0,1.0,,Where can I find the campus map,0.8540416955947876
-2023-10-10,1,True,where can i find my course calendar,53,,True,Multiple Topics,,-1.0,,,
-2023-10-10,2,True,fall term exam schedule,54,5.0,False,Academic Calendar,,,,,
-2023-10-10,1,True,how do i figure out how to pay my tuition,55,,True,Financial Information,18.0,0.0,General,How do I pay my tuition online,0.8771241903305054
-2023-10-10,1,True,how can i switch programs,56,86.0,True,Academic Calendar,,-1.0,,,
-2023-10-10,5,False,can students use chatgpt for completing assignments,57,,True,Academic Calendar,343.0,0.0,Specific ,How do I find a comprehensive list of all academic policies for the university,0.569720983505249
-2023-10-10,1,True,where is the the ravens nest,58,0.0,False,Campus,,,,,
-2023-10-10,0,False,where can i find some hoes,59,,False,out of scope,,,,,
-2023-10-10,1,True,where can i see exam schedule,60,5.0,False,Academic Calendar,,,,,
-2023-10-10,1,False,how do i get better grades,61,112.0,False,Academic Resources,,,,,
-2023-10-10,1,False,how many bathrooms are there in total,62,,True,Campus,119.0,0.0,Specific ,Where can I find a list of all lecture halls and their capacities,0.6436226963996887
-2023-10-10,1,False,how do i join a sports team,63,,True,Athletics,48.0,1.0,,How do I try out for [specific sports team],0.7695745229721069
-2023-10-10,1,True,what kind of classes should i take for my degree,64,94.0,True,Academic Calendar,52.0,0.0,Specific ,What classes are available next semester,0.638691782951355
-2023-10-11,3,False,when does fall term start,65,,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.46546339988708496
-2023-10-11,3,False,when is the last day for tuition payment,65,96.0,True,Financial Information,19.0,1.0,,When is the last date for tuition payment this semester,0.915009617805481
-2023-10-11,3,False,where can i sign up for intramurals,65,,True,Athletics,303.0,0.0,Specific ,Are there intramural or club sports available for students who wish to participate recreationally,0.6747612953186035
-2023-10-11,3,False,what can i access from the library,65,,True,Academic Resources,,-1.0,,,
-2023-10-11,3,False,how can i access the library,65,,True,Academic Resources,71.0,0.0,General,How do I access the online library catalog,0.8320426940917969
-2023-10-11,3,True,summarise this document,66,,False,out of scope,,,,,
-2023-10-11,3,True,what is the main topic in this text,66,,False,out of scope,,,,,
-2023-10-11,3,True,how to get to the uc building from the library,66,0.0,True,Campus,13.0,0.0,Specific ,Where is the health center located,0.5395750999450684
-2023-10-11,3,True,which rooms are reserved for irm students,66,,True,Campus,,-1.0,,,
-2023-10-11,3,True,what days are the campus closed,66,,True,Campus,,-1.0,,,
-2023-10-11,3,True,what is the holiday schedule for students,66,,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.6926534175872803
-2023-10-11,5,True,what courses can i register for course plans,67,94.0,True,Academic Calendar,52.0,0.0,Vague,What classes are available next semester,0.6460646390914917
-2023-10-11,5,True,can you tell me about equivalent courses at carleton and letters of permission,67,,True,Study Abroad and Exchanges,,-1.0,,,
-2023-10-11,5,True,i am getting a registration warning when i try to register for a course in my program  what should i do,67,168.0,True,Academic Calendar,,-1.0,,,
-2023-10-11,5,True,how do i register for my elective,67,,True,Academic Calendar,55.0,0.0,Specific ,How do I register for classes,0.8381075859069824
-2023-10-11,5,True,how do i add a minor and what minors can i take,67,110.0,True,Academic Calendar,169.0,0.0,Specific ,What's the process for changing my major or minor,0.6173790097236633
-2023-10-11,5,True,what is the process to take a leave of absence,67,111.0,True,Academic Calendar,167.0,1.0,,How do I apply for a leave of absence,0.764172375202179
-2023-10-11,5,True,what can i do to improve my cgpa,67,112.0,True,Academic Resources,44.0,0.0,Specific ,How can I get academic advising,0.7430858612060547
-2023-10-11,5,True,i have a timetable conflict between courses  what should i do,67,,True,Academic Calendar,,-1.0,,,
-2023-10-11,4,True,where can i find deadlines on fall registration,68,6.0,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.4565414786338806
-2023-10-11,4,True,where can i find deadlines for graduation,68,,True,Graduation,323.0,0.0,Specific,How and when do students apply for graduation and is there a deadline,0.7884464263916016
-2023-10-11,4,True,where can see my tuition fees,68,,True,Financial Information,42.0,0.0,General,What are the tuition fees for international students,0.7917810678482056
-2023-10-12,5,True,can i apply to more than one program,69,,True,Admissions,256.0,0.0,Specific ,Is it possible to apply for dual degrees or interdisciplinary programs,0.6417165994644165
-2023-10-12,5,True,who do i send my required documents and supplementary forms to,69,118.0,True,Admissions,,-1.0,,,
-2023-10-12,5,True,when can i upload my required documents,69,118.0,True,Admissions,,-1.0,,,
-2023-10-12,5,True,can you review my documents before i apply,69,,True,Admissions,,-1.0,,,
-2023-10-12,5,True,how do i check the status of my application,69,,True,Admissions,147.0,0.0,Specific ,How does the university notify applicants of changes in the application process,0.6591293811798096
-2023-10-12,5,True,do i need to renew my study permit,70,,True,Study Abroad and Exchanges,,-1.0,,,
-2023-10-12,5,True,how can i take a break from my studies,70,111.0,True,Academic Calendar,167.0,1.0,,How do I apply for a leave of absence,0.7158958911895752
-2023-10-12,5,True,what are tuition fees at carleton university,70,,True,Financial Information,42.0,0.0,General,What are the tuition fees for international students,0.901806652545929
-2023-10-12,5,True,how can i study abroad,70,,True,Study Abroad and Exchanges,266.0,1.0,,Is there a separate application process for exchange programs,0.42312419414520264
-2023-10-12,4,True,can you apply to graduate while still needing courses,71,126.0,True,Graduation,322.0,0.0,Specific,What are the requirements students need to fulfill in order to be eligible for graduation,0.7238879799842834
-2023-10-12,3,True,when are we supposed to apply for coop jobs,72,,True,Career,87.0,0.0,Specific ,How can I apply for internship opportunities through the university,0.6782203316688538
-2023-10-12,3,True,how does the coop process work,72,,False,Career,,,,,
-2023-10-12,2,True,how do you apply for a minor,73,110.0,True,Academic Calendar,169.0,1.0,,What's the process for changing my major or minor,0.6801680326461792
-2023-10-12,3,False,is there health and counselling services for adhd,74,,True,Student Health and Wellness,89.0,0.0,Specific ,Are there counseling services available for students,0.6772202849388123
-2023-10-12,3,True,when is reading week,75,132.0,True,Academic Calendar,7.0,0.0,Specific ,What's the academic calendar for this year,0.5395684242248535
-2023-10-12,3,True,when is reading week,75,132.0,False,Academic Calendar,,,,,
-2023-10-12,2,True,where to put electric scooter,76,,True,Transportation and Parking,295.0,1.0,,Are there specific parking accommodations or areas for eco-friendly or electric vehicles,0.5239313244819641
-2023-10-12,4,True,which graduation form to apply to,77,,True,Graduation,323.0,0.0,Specific,How and when do students apply for graduation and is there a deadline,0.6917239427566528
-2023-10-12,4,True,what happens if i applied for graduation and failed an elective which would be my last 05 credit before graduating can i still graduate,77,126.0,True,Graduation,322.0,0.0,Specific,What are the requirements students need to fulfill in order to be eligible for graduation,0.7500303983688354
-2023-10-12,3,False,how can you transfer to another program,78,86.0,False,Academic Calendar,,,,,
-2023-10-12,2,True,where are the chonkers,79,,False,out of scope,,,,,
-2023-10-12,4,False,how do i get my confirmation of graduation letter,80,,True,Graduation,330.0,0.0,General,How does the university handle the distribution of diplomas or transcripts post-ceremony,0.5881403088569641
-2023-10-12,0,True,i'm applying and i was wondering if there's anything i should know before applying,81,,True,Admissions,39.0,0.0,Vague,How do I apply to the university,0.7553988695144653
-2023-10-12,0,False,is it still possible to apply to carleton now especially for mecheng,82,,True,Admissions,40.0,0.0,Specific ,What are the application deadlines,0.5961273312568665
-2023-10-12,0,False,i would like to apply for computer science program next year in carleton average 83 is enough for applying computer science in carleton,83,,True,Admissions,41.0,0.0,Specific ,What's the acceptance rate,0.3958568274974823
-2023-10-12,0,True,what's the approximate time to receive word back about my application,84,,True,Admissions,147.0,0.0,Specific ,How does the university notify applicants of changes in the application process,0.6001932621002197
-2023-10-12,0,False,any insights you can give to help strengthen my application when i apply for cs as an international highschool student for next term,85,,True,Admissions,39.0,0.0,Specific ,How do I apply to the university,0.7573691606521606
-2023-10-12,2,False,when how do i apply for campus jobs,86,27.0,True,Career,,-1.0,,,
-2023-10-12,0,True,is it worth applying to carleton cs,87,,True,Admissions,,-1.0,,,
-2023-10-12,0,True,how does the coop work here,87,,True,Career,87.0,1.0,,How can I apply for internship opportunities through the university,0.6300346851348877
-2023-10-12,0,True,what is the timeline for applying for the bgins masters program,88,,True,Admissions,40.0,0.0,Specific ,What are the application deadlines,0.6627551317214966
-2023-10-12,0,True,i don't have any questions i would ask,89,,False,out of scope,,,,,
-2023-10-12,0,False,my application status changed to recommend for assessment what's that mean,90,,True,Admissions,147.0,0.0,Specific ,How does the university notify applicants of changes in the application process,0.6551995873451233
-2023-10-12,0,True,why is my application still not responded to,91,,True,Admissions,147.0,0.0,Specific ,How does the university notify applicants of changes in the application process,0.6231117248535156
-2023-10-12,0,False,if there is an option to get my application fee waived,92,,True,Admissions,,-1.0,,,
-2023-10-12,0,False,when will i hear a response for winter residence,92,,True,Housing,,-1.0,,,
-2023-10-12,0,True,how do i apply for osap,93,,True,Financial Information,64.0,0.0,Specific,How do I apply for financial aid,0.8115222454071045
-2023-10-12,0,True,can i go to campus and get the financial aid department to help me,93,,True,Multiple Topics,,-1.0,,,
-2023-10-12,0,True,no questions sorry,94,,False,out of scope,,,,,
-2023-10-12,0,False,how do i get involved at carleton,95,63.0,False,Community Engagement,,,,,
-2023-10-12,0,False,can i get a bus discount,95,,True,Transportation and Parking,94.0,1.0,,How do I use the university's public transportation discounts,0.6572516560554504
-2023-10-12,0,False,where can i get housing,95,,True,Housing,297.0,0.0,Vague,What types of on-campus housing options are available (eg dormitories apartments suites),0.5692155957221985
-2023-10-12,4,False,how do i apply to be a ta,96,21.0,False,Career,,,,,
-2023-10-12,4,False,what research opportunities are there,96,,True,Research,83.0,0.0,General,Are there research opportunities for undergraduate students,0.7759866714477539
-2023-10-12,3,True,where do you go to apply to become a ta,97,21.0,False,Career,,,,,
-2023-10-13,0,True,what are some things i should know for my first year of univeristy,98,,True,Multiple Topics,,-1.0,,,
-2023-10-13,5,True,what is the campus wifi,99,,True,Information Technology,70.0,1.0,,How do I connect to the campus Wi-Fi,0.6907448768615723
-2023-10-13,5,True,how do i log into online learning,99,,True,Information Technology,33.0,1.0,,I'm having trouble accessing the e-learning platform Can you help,0.6432996988296509
-2023-10-13,5,True,how do i get it help,99,,True,Information Technology,178.0,1.0,,Is there an IT helpdesk I can contact for tech-related queries,0.5702363848686218
-2023-10-13,5,True,how do i read my audit,100,54.0,False,Academic Resources,,,,,
-2023-10-13,5,True,can i schedule an appointment for academic advising,100,35.0,False,Academic Resources,,,,,
-2023-10-13,5,True,why can't i register for this course,100,168.0,True,Academic Calendar,,-1.0,,,
-2023-10-13,0,False,is there a day to join clubs,101,81.0,True,Student Organizations,96.0,0.0,Specific,How do I join the university's [specific club],0.6014605164527893
-2023-10-13,0,False,can i start my own club,101,,True,Student Organizations,95.0,1.0,,Can I start a new club or student organization,0.7615268230438232
-2023-10-13,5,True,what clubs can i join,102,81.0,True,Student Organizations,76.0,1.0,,What student organizations are there,0.5215321779251099
-2023-10-13,5,True,how can i get accommodations for my classes,102,,True,Accessibility,105.0,1.0,,How do I request accommodations for my classes,0.8854143619537354
-2023-10-13,5,True,how do i opt out of student fees,103,,True,Financial Information,,-1.0,,,
-2023-10-13,5,True,what scholarships can i apply for,103,,True,Financial Information,65.0,0.0,General,What scholarships are available for [specific program/major],0.7729499340057373
-2023-10-13,5,True,what financial aid can i apply for,103,,True,Financial Information,64.0,0.0,Specific,How do I apply for financial aid,0.8938430547714233
+Date,Prompt,Original Topic,Query,New Topic,Topic,Duplicate ID,Test
+2023-10-08,A,General Information,What courses do you offer,13,Academic Calendar,0,TRUE
+2023-10-08,A,General Information,When was the university established,17,Academic Calendar,,TRUE
+2023-10-08,A,General Information,Who is the current president/chancellor of the university,13,Academic Calendar,,TRUE
+2023-10-08,A,Admissions and Enrollment,What's the application deadline for the fall semester,7,Admissions,3,TRUE
+2023-10-08,A,Admissions and Enrollment,What are the requirements for international students,7,Admissions,,TRUE
+2023-10-08,A,Admissions and Enrollment,How do I apply for financial aid,7,Financial Information,5,TRUE
+2023-10-08,A,Academics,How do I access online course materials,13,Information Technology,6,FALSE
+2023-10-08,A,Academics,What's the academic calendar for this year,13,Academic Calendar,7,TRUE
+2023-10-08,A,Academics,Are there study abroad programs available,13,Study Abroad and Exchanges,8,FALSE
+2023-10-08,A,Student Services,How do I reset my student portal password,11,Information Technology,9,TRUE
+2023-10-08,A,Student Services,Where can I find information about on-campus housing,11,Housing,10,TRUE
+2023-10-08,A,Student Services,Is there a career counseling service available,11,Career,11,TRUE
+2023-10-08,A,Campus Facilities,What are the library opening hours,3,Campus,12,TRUE
+2023-10-08,A,Campus Facilities,Where is the health center located,3,Campus,13,TRUE
+2023-10-08,A,Campus Facilities,How do I book a room in the student union building,3,Campus,14,TRUE
+2023-10-08,A,Events and Activities,What events are happening this week,6,Campus,77,FALSE
+2023-10-08,A,Events and Activities,How can I join a student organization,6,Student Organizations,16,FALSE
+2023-10-08,A,Events and Activities,Where can I buy tickets for the university football game,6,Athletics,46,FALSE
+2023-10-08,A,Billing and Fees,How do I pay my tuition online,13,Financial Information,,TRUE
+2023-10-08,A,Billing and Fees,When is the last date for tuition payment this semester,13,Financial Information,,TRUE
+2023-10-08,A,Billing and Fees,Are there any scholarships available for graduate students,13,Financial Information,,TRUE
+2023-10-08,A,Faculty and Research,How can I contact Professor X,16,Academic Resources,,TRUE
+2023-10-08,A,Faculty and Research,Where can I find research publications by the university faculty,16,Academic Resources,,TRUE
+2023-10-08,A,Faculty and Research,Are there any research assistant positions available in the Biology department,16,Research,,TRUE
+2023-10-08,A,Alumni,How can I request my transcripts,0,Graduation,24,TRUE
+2023-10-08,A,Alumni,Are there any alumni events happening soon,0,Alumni,25,TRUE
+2023-10-08,A,Alumni,How do I make a donation to the university,0,Alumni,26,TRUE
+2023-10-08,A,Visitors,How do I schedule a campus tour,17,Campus,27,TRUE
+2023-10-08,A,Visitors,Where can I park when visiting the campus,17,Transportation and Parking,,TRUE
+2023-10-08,A,Visitors,Are there any public lectures or seminars I can attend,17,Community Engagement,,TRUE
+2023-10-08,A,Emergency and Safety,What do I do if I've lost my student ID,4,Emergency and Safety,,TRUE
+2023-10-08,A,Emergency and Safety,How do I report a safety concern on campus,4,Emergency and Safety,145,FALSE
+2023-10-08,A,Emergency and Safety,Who do I contact for a medical emergency,4,Emergency and Safety,,TRUE
+2023-10-08,A,Technical Support,I'm having trouble accessing the e-learning platform Can you help,11,Information Technology,,TRUE
+2023-10-08,A,Technical Support,How do I connect to the university's Wi-Fi,11,Information Technology,34,TRUE
+2023-10-08,A,Technical Support,Are there IT services available to assist with software installations,11,Information Technology,,TRUE
+2023-10-08,A,Feedback and Grievances,How do I give feedback about a course or a professor,14,Feedback,149,FALSE
+2023-10-08,A,Feedback and Grievances,Where can I file a complaint about a service on campus,14,Feedback,60,FALSE
+2023-10-08,A,Feedback and Grievances,I have a suggestion for improving the campus cafeteria Who should I talk to,14,Feedback,223,FALSE
+2023-10-08,B,Admissions and Enrollment,How do I apply to the university,7,Admissions,,TRUE
+2023-10-08,B,Admissions and Enrollment,What are the application deadlines,7,Admissions,3,FALSE
+2023-10-08,B,Admissions and Enrollment,What's the acceptance rate,7,Admissions,,TRUE
+2023-10-08,B,Admissions and Enrollment,What are the tuition fees for international students,7,Financial Information,,TRUE
+2023-10-08,B,Student Services,Where is the career center located,11,Campus,13,FALSE
+2023-10-08,B,Student Services,How can I get academic advising,11,Academic Resources,44,TRUE
+2023-10-08,B,Student Services,Is there a health clinic on campus,11,Student Health and Wellness,,TRUE
+2023-10-08,B,Athletics,How can I buy tickets for [specific sports] games,12,Athletics,46,TRUE
+2023-10-08,B,Athletics,When is the next home game for [specific sports],12,Athletics,,TRUE
+2023-10-08,B,Athletics,How do I try out for [specific sports team],12,Athletics,,TRUE
+2023-10-08,B,Housing and Accommodation,Is on-campus housing available for first-year students,13,Housing,10,FALSE
+2023-10-08,B,Housing and Accommodation,How much does dormitory housing cost,13,Housing,,TRUE
+2023-10-08,B,Housing and Accommodation,Are there any nearby off-campus housing options,13,Housing,51,TRUE
+2023-10-08,B,Academic Programs and Courses,What classes are available next semester,9,Academic Calendar,0,TRUE
+2023-10-08,B,Academic Programs and Courses,What undergraduate/graduate programs do you offer,9,Academic Calendar,,TRUE
+2023-10-08,B,Academic Programs and Courses,Can you tell me more about the [specific program],9,Academic Calendar,,TRUE
+2023-10-08,B,Academic Programs and Courses,How do I register for classes,9,Academic Calendar,,TRUE
+2023-10-08,B,Alumni Services,How do I request my transcripts,0,Graduation,24,FALSE
+2023-10-08,B,Alumni Services,Are there any alumni events this year,0,Alumni,25,FALSE
+2023-10-08,B,Alumni Services,How do I donate to the university,0,Alumni,26,FALSE
+2023-10-08,B,Feedback and Complaints,Where can I leave feedback about a professor,14,Feedback,149,FALSE
+2023-10-08,B,Feedback and Complaints,How do I file a complaint about a campus service,14,Feedback,60,TRUE
+2023-10-08,B,General Information,What's the university's address and contact number,13,Campus,,TRUE
+2023-10-08,B,General Information,How do I get to the university from [specific location],13,Campus,,TRUE
+2023-10-08,B,General Information,Is there a campus tour available,13,Campus,27,FALSE
+2023-10-08,B,Financial Aid and Scholarships,How do I apply for financial aid,7,Financial Information,5,FALSE
+2023-10-08,B,Financial Aid and Scholarships,What scholarships are available for [specific program/major],7,Financial Information,,TRUE
+2023-10-08,B,Financial Aid and Scholarships,When is the financial aid deadline,17,Financial Information,,TRUE
+2023-10-08,B,Financial Aid and Scholarships,What is the average financial aid package,7,Financial Information,,TRUE
+2023-10-08,B,Technical Support,How do I reset my student portal password,11,Information Technology,9,FALSE
+2023-10-08,B,Technical Support,Is there a tech help desk on campus,11,Campus,69,TRUE
+2023-10-08,B,Technical Support,How do I connect to the campus Wi-Fi,11,Information Technology,34,FALSE
+2023-10-08,B,Library and Research,How do I access the online library catalog,16,Academic Resources,,TRUE
+2023-10-08,B,Library and Research,What are the library's opening hours,16,Campus,12,FALSE
+2023-10-08,B,Library and Research,Can I reserve a study room in the library,16,Campus,73,TRUE
+2023-10-08,B,Safety and Emergency,Is there a campus police phone number,4,Emergency and Safety,145,FALSE
+2023-10-08,B,Safety and Emergency,How do I report an on-campus emergency,4,Campus,145,FALSE
+2023-10-08,B,Campus Life,What student organizations are there,3,Student Organizations,,TRUE
+2023-10-08,B,Campus Life,Are there any upcoming campus events,3,Campus,77,TRUE
+2023-10-08,B,Campus Life,Where can I find the campus map,3,Campus,78,TRUE
+2023-10-08,B,Campus Life,What are the dining options on campus,3,Campus,,TRUE
+2023-10-08,C,Study Abroad and Exchanges,Can students study abroad during their course,1,Study Abroad and Exchanges,8,FALSE
+2023-10-08,C,Study Abroad and Exchanges,Which universities do you have exchange programs with,1,Study Abroad and Exchanges,,TRUE
+2023-10-08,C,Study Abroad and Exchanges,Are there scholarships for study abroad programs,1,Study Abroad and Exchanges,,TRUE
+2023-10-08,C,Research Opportunities,Are there research opportunities for undergraduate students,16,Research,,TRUE
+2023-10-08,C,Research Opportunities,How can I join a research lab or group,16,Research,84,TRUE
+2023-10-08,C,Research Opportunities,Who should I contact about [specific field] research,16,Research,,TRUE
+2023-10-08,C,Internships and Job Placements,Does the university offer internship programs,13,Career,,TRUE
+2023-10-08,C,Internships and Job Placements,How can I apply for internship opportunities through the university,13,Career,,TRUE
+2023-10-08,C,Internships and Job Placements,Are there any job placement services for graduates,13,Career,88,TRUE
+2023-10-08,C,Student Health and Wellness,Are there counseling services available for students,13,Student Health and Wellness,89,TRUE
+2023-10-08,C,Student Health and Wellness,How can I schedule an appointment with a university therapist or counselor,13,Student Health and Wellness,89,TRUE
+2023-10-08,C,Student Health and Wellness,Is there a gym or fitness center on campus,13,Campus,69,FALSE
+2023-10-08,C,Transportation and Parking,How can I get a parking permit,18,Transportation and Parking,,TRUE
+2023-10-08,C,Transportation and Parking,Are there shuttle services around the campus,18,Transportation and Parking,,TRUE
+2023-10-08,C,Transportation and Parking,How do I use the university's public transportation discounts,18,Transportation and Parking,,TRUE
+2023-10-08,C,Extracurricular Activities,Can I start a new club or student organization,6,Student Organizations,,TRUE
+2023-10-08,C,Extracurricular Activities,How do I join the university's [specific club],6,Student Organizations,16,TRUE
+2023-10-08,C,Extracurricular Activities,Are there music or arts programs open to all students,13,Academic Calendar,,TRUE
+2023-10-08,C,Testing and Exam Centers,Where is the university's testing center located,13,Campus,13,FALSE
+2023-10-08,C,Testing and Exam Centers,How do I schedule a makeup exam,13,Academic Calendar,99,TRUE
+2023-10-08,C,Testing and Exam Centers,Are there accommodations for students with disabilities during exams,13,Accessibility,,TRUE
+2023-10-08,C,Labs and Technology,Where are the computer labs located on campus,10,Campus,13,FALSE
+2023-10-08,C,Labs and Technology,How can I reserve equipment or lab space for a project,10,Campus,,TRUE
+2023-10-08,C,Labs and Technology,Are there any workshops on software tools or technologies,10,Academic Resources,,TRUE
+2023-10-08,C,Accessibility Services,What services are available for students with disabilities,0,Accessibility,,TRUE
+2023-10-08,C,Accessibility Services,How do I request accommodations for my classes,0,Accessibility,105,TRUE
+2023-10-08,C,Accessibility Services,Is the campus wheelchair accessible,0,Accessibility,,TRUE
+2023-10-08,C,Community Engagement,How can I get involved in community service through the university,13,Community Engagement,107,TRUE
+2023-10-08,C,Community Engagement,Are there mentorship programs for new students,13,Academic Calendar,154,FALSE
+2023-10-08,C,Community Engagement,Does the university host public events or lectures,13,Community Engagement,,TRUE
+2023-10-08,C,Graduation and Alumni,How do I apply for graduation,0,Graduation,110,FALSE
+2023-10-08,C,Graduation and Alumni,How can I join the alumni network,0,Alumni,,TRUE
+2023-10-08,C,Graduation and Alumni,What are the requirements to graduate with honors,0,Graduation,,TRUE
+2023-10-08,C,Eco and Sustainability Initiatives,What sustainability initiatives does the university follow,6,Community Engagement,113,TRUE
+2023-10-08,C,Eco and Sustainability Initiatives,Are there any eco-friendly student organizations,6,Student Organizations,,TRUE
+2023-10-08,C,Eco and Sustainability Initiatives,How can I get involved in the university's green initiatives,6,Community Engagement,,TRUE
+2023-10-08,D,Faculty and Staff,Who is the head of the [specific department],8,Academic Resources,,TRUE
+2023-10-08,D,Faculty and Staff,How can I schedule a meeting with Professor [name],8,Academic Resources,,TRUE
+2023-10-08,D,Faculty and Staff,Where can I find the office hours for my instructors,8,Academic Resources,,TRUE
+2023-10-08,D,Campus Infrastructure,Where can I find a list of all lecture halls and their capacities,3,Campus,,TRUE
+2023-10-08,D,Campus Infrastructure,How can I book a recreational area for an event,3,Campus,14,TRUE
+2023-10-08,D,Campus Infrastructure,Are there study rooms in the [specific building],3,Campus,73,TRUE
+2023-10-08,D,Academic Resources,Where can I find additional reading materials for my [specific course],9,Academic Resources,,TRUE
+2023-10-08,D,Academic Resources,Is there a peer tutoring program for [specific subject],9,Academic Resources,,TRUE
+2023-10-08,D,Academic Resources,Are there workshops to help with academic writing or research methods,9,Academic Resources,,TRUE
+2023-10-08,D,Student Support Services,How can I access mental health services on campus,11,Student Health and Wellness,,TRUE
+2023-10-08,D,Student Support Services,Where can I get academic counseling or advising,11,Academic Resources,44,FALSE
+2023-10-08,D,Student Support Services,Is there a helpline or service for students facing personal challenges,11,Student Health and Wellness,,TRUE
+2023-10-08,D,Events and Campus Culture,Where can I find the schedule for upcoming cultural events on campus,6,Campus,,TRUE
+2023-10-08,D,Events and Campus Culture,How can I sign up to volunteer for the annual [specific event],6,Community Engagement,,TRUE
+2023-10-08,D,Events and Campus Culture,Are there any language or cultural exchange programs,6,Study Abroad and Exchanges,,TRUE
+2023-10-08,D,Policies and Procedures,What's the university's policy on academic honesty and plagiarism,19,Academic Calendar,131,TRUE
+2023-10-08,D,Policies and Procedures,How do I add/drop courses after the initial registration,19,Academic Calendar,,TRUE
+2023-10-08,D,Policies and Procedures,Are there guidelines on dormitory rules and conduct,19,Housing,,TRUE
+2023-10-08,D,Post-Graduation,Where is the career services office located and how can I schedule an appointment,2,Career,11,FALSE
+2023-10-08,D,Post-Graduation,How can I connect with alumni in my field,2,Alumni,,TRUE
+2023-10-08,D,Post-Graduation,Are there post-graduate internships or fellowships available through the university,2,Career,88,FALSE
+2023-10-08,D,Local Surroundings,What are some recommended local places for students to visit,15,Community Engagement,,TRUE
+2023-10-08,D,Local Surroundings,Are there student discounts at local businesses or attractions,15,Financial Information,138,TRUE
+2023-10-08,D,Local Surroundings,How do I use public transportation around the university,15,Transportation and Parking,,TRUE
+2023-10-08,D,Online Learning and Technology,How can I access the online learning platform for my courses,10,Information Technology,6,TRUE
+2023-10-08,D,Online Learning and Technology,Who do I contact if I'm having technical issues with my online exam,10,Information Technology,,TRUE
+2023-10-08,D,Online Learning and Technology,Are there guidelines or tips for successful remote learning,10,Academic Resources,,TRUE
+2023-10-08,D,Safety and Security,What's the protocol for reporting suspicious activities on campus,4,Emergency and Safety,,TRUE
+2023-10-08,D,Safety and Security,How does the university protect student data and privacy online,4,Emergency and Safety,144,TRUE
+2023-10-08,D,Safety and Security,Is there an emergency helpline for students,4,Emergency and Safety,145,TRUE
+2023-10-08,D,Admission Changes and Updates,Have there been recent changes to the admission criteria for [specific program],5,Admissions,,TRUE
+2023-10-08,D,Admission Changes and Updates,How does the university notify applicants of changes in the application process,5,Admissions,,TRUE
+2023-10-08,D,Admission Changes and Updates,Where can I find updated course requirements for my intended major,5,Academic Calendar,,TRUE
+2023-10-08,D,Feedback and Improvement,How can I provide feedback about my course or instructor,14,Feedback,149,TRUE
+2023-10-08,D,Feedback and Improvement,Is there a grievance redressal system for student complaints,14,Feedback,,TRUE
+2023-10-08,D,Feedback and Improvement,Who do I contact to suggest improvements to campus facilities,14,Feedback,223,FALSE
+2023-10-08,E,Faculty and Staff,Are there any faculty members who specialize in [specific research topic],8,Academic Resources,,TRUE
+2023-10-08,E,Faculty and Staff,How do I get in touch with the academic advising team,8,Academic Resources,44,FALSE
+2023-10-08,E,Faculty and Staff,Can I be assigned a mentor or senior advisor for my major,8,Academic Resources,154,TRUE
+2023-10-08,E,Campus Infrastructure,Is there a map or app to navigate the campus,3,Campus,78,FALSE
+2023-10-08,E,Campus Infrastructure,What are the operating hours for the main library,3,Campus,12,FALSE
+2023-10-08,E,Campus Infrastructure,Are there any 24-hour study spaces available,3,Campus,73,TRUE
+2023-10-08,E,Academic Resources,How do I access the online journal database,9,Academic Resources,,TRUE
+2023-10-08,E,Academic Resources,Is there a resource center or hub for [specific major/department],9,Academic Resources,,TRUE
+2023-10-08,E,Academic Resources,Are there any collaborative study groups or sessions I can join,9,Academic Resources,,TRUE
+2023-10-08,E,Student Support Services,Do you offer financial counseling or guidance for students,11,Financial Information,,TRUE
+2023-10-08,E,Student Support Services,Where can I find resources for stress management during exams,11,Student Health and Wellness,,TRUE
+2023-10-08,E,Student Support Services,Is there a center for diversity and inclusion,11,Student Health and Wellness,,TRUE
+2023-10-08,E,Events and Campus Culture,Are there any leadership workshops or seminars this semester,6,Career,,TRUE
+2023-10-08,E,Events and Campus Culture,How can I stay updated with campus news and events,6,Campus,,TRUE
+2023-10-08,E,Events and Campus Culture,Where can I find tickets or passes for university athletic games,6,Athletics,46,FALSE
+2023-10-08,E,Policies and Procedures,How do I apply for a leave of absence,19,Academic Calendar,,TRUE
+2023-10-08,E,Policies and Procedures,Where can I find the academic calendar for the year,19,Academic Calendar,7,FALSE
+2023-10-08,E,Policies and Procedures,What's the process for changing my major or minor,19,Academic Calendar,,TRUE
+2023-10-08,E,Post-Graduation,Do you have a platform for networking with university alumni,2,Alumni,,TRUE
+2023-10-08,E,Post-Graduation,Are there any upcoming job fairs or recruitment drives,2,Career,,TRUE
+2023-10-08,E,Post-Graduation,How do I request transcripts or academic records for further studies,2,Graduation,24,FALSE
+2023-10-08,E,Local Surroundings,Are there any farmers' markets or local events near campus,15,Community Engagement,,TRUE
+2023-10-08,E,Local Surroundings,What safety measures are in place for students traveling late at night,15,Emergency and Safety,174,TRUE
+2023-10-08,E,Local Surroundings,Can you recommend off-campus housing options or neighborhoods,15,Housing,51,FALSE
+2023-10-08,E,Online Learning and Technology,Are there any software or tools provided by the university for free,10,Academic Resources,,TRUE
+2023-10-08,E,Online Learning and Technology,How do I troubleshoot issues with the university's Wi-Fi,10,Information Technology,,TRUE
+2023-10-08,E,Online Learning and Technology,Is there an IT helpdesk I can contact for tech-related queries,10,Information Technology,,TRUE
+2023-10-08,E,Safety and Security,How frequently does the university conduct safety drills,4,Emergency and Safety,,TRUE
+2023-10-08,E,Safety and Security,Are there any health or vaccination requirements for on-campus students,4,Emergency and Safety,,TRUE
+2023-10-08,E,Safety and Security,How are lost and found items handled on campus,4,Campus,,TRUE
+2023-10-08,E,Admission Changes and Updates,How do I defer my admission to a later semester,5,Admissions,,TRUE
+2023-10-08,E,Admission Changes and Updates,Are there any new scholarships or financial aid options available,5,Financial Information,,TRUE
+2023-10-08,E,Admission Changes and Updates,Where can I find statistics on the most recent incoming class,5,Admissions,,TRUE
+2023-10-08,E,Feedback and Improvement,How can I participate in student council or governance,14,Student Organizations,185,TRUE
+2023-10-08,E,Feedback and Improvement,Is there a suggestion box or platform to voice student opinions,14,Feedback,223,FALSE
+2023-10-08,E,Feedback and Improvement,Who do I approach for concerns regarding accessibility on campus,14,Accessibility,,TRUE
+2023-10-08,F,Faculty and Staff,Who leads the [specific department] outreach programs,8,Academic Resources,,TRUE
+2023-10-08,F,Faculty and Staff,Can students collaborate with faculty on research projects,8,Research,,TRUE
+2023-10-08,F,Faculty and Staff,Is there a directory for faculty and their areas of expertise,8,Academic Resources,,TRUE
+2023-10-08,F,Campus Infrastructure,Are there any sustainable or green buildings on campus,3,Campus,,TRUE
+2023-10-08,F,Campus Infrastructure,Where can I find information about campus art installations or landmarks,3,Campus,,TRUE
+2023-10-08,F,Campus Infrastructure,Are there special accommodations or rooms for nursing mothers,3,Accessibility,,TRUE
+2023-10-08,F,Academic Resources,How can I reserve books or materials from the library in advance,9,Academic Resources,,TRUE
+2023-10-08,F,Academic Resources,Does the university offer language or writing centers for assistance,9,Academic Resources,,TRUE
+2023-10-08,F,Academic Resources,Are there any peer-led workshops for specific courses,9,Academic Resources,,TRUE
+2023-10-08,F,Student Support Services,Is there a dedicated service for first-generation college students,11,Student Health and Wellness,,TRUE
+2023-10-08,F,Student Support Services,Are there programs to assist international students in acclimatizing,11,Student Health and Wellness,,TRUE
+2023-10-08,F,Student Support Services,How can I find a study or academic mentor,11,Academic Resources,154,FALSE
+2023-10-08,F,Events and Campus Culture,How can I contribute to the university's student magazine or newspaper,6,Student Organizations,,TRUE
+2023-10-08,F,Events and Campus Culture,Are there any upcoming artist or speaker series,6,Campus,,TRUE
+2023-10-08,F,Events and Campus Culture,How can I showcase my work in the university gallery or exhibition spaces,6,Campus,,TRUE
+2023-10-08,F,Policies and Procedures,What are the guidelines for students who wish to take a gap year,19,Admissions,,TRUE
+2023-10-08,F,Policies and Procedures,Where can I find the code of conduct or student handbook,19,Academic Calendar,,TRUE
+2023-10-08,F,Policies and Procedures,How does the university address academic disputes or grade appeals,19,Academic Calendar,,TRUE
+2023-10-08,F,Post-Graduation,Is there a platform where I can connect with mentors in the industry,2,Career,154,FALSE
+2023-10-08,F,Post-Graduation,How can I get my work or research published through the university,2,Research,,TRUE
+2023-10-08,F,Post-Graduation,Does the university offer continued education or evening classes for alumni,2,Alumni,,TRUE
+2023-10-08,F,Local Surroundings,How can I engage with community service projects around the area,15,Community Engagement,107,TRUE
+2023-10-08,F,Local Surroundings,Are there student-friendly cafes or hangout spots near campus,15,Community Engagement,,TRUE
+2023-10-08,F,Local Surroundings,Does the university have any partnerships with local museums or cultural centers,15,Community Engagement,,TRUE
+2023-10-08,F,Online Learning and Technology,How do I access the university's e-library or digital resources,10,Academic Resources,212,TRUE
+2023-10-08,F,Online Learning and Technology,Are there tutorials or guides for using the online student portal,10,Information Technology,,TRUE
+2023-10-08,F,Online Learning and Technology,Is there a platform for virtual group projects or collaborations,10,Academic Resources,,TRUE
+2023-10-08,F,Safety and Security,Does the campus have blue light emergency phones or panic buttons,4,Campus,145,FALSE
+2023-10-08,F,Safety and Security,How can I report instances of discrimination or harassment,4,Feedback,,TRUE
+2023-10-08,F,Safety and Security,Is there a night escort service for students,4,Emergency and Safety,174,FALSE
+2023-10-08,F,Admission Changes and Updates,How do changes in global events or circumstances impact admissions,5,Admissions,,TRUE
+2023-10-08,F,Admission Changes and Updates,Can I get feedback on my unsuccessful application,5,Admissions,,TRUE
+2023-10-08,F,Admission Changes and Updates,Are there bridge programs for students who don't meet direct admission requirements,5,Admissions,,TRUE
+2023-10-08,F,Feedback and Improvement,How can I initiate a collaborative project or event on campus,14,Campus,,TRUE
+2023-10-08,F,Feedback and Improvement,Is there a channel to share innovative ideas for campus development,14,Feedback,223,FALSE
+2023-10-08,F,Feedback and Improvement,How does the university gather feedback on its initiatives or programs,14,Feedback,223,TRUE
+2023-10-08,G,Faculty and Staff,How are professors evaluated for their teaching effectiveness,8,Feedback,149,TRUE
+2023-10-08,G,Faculty and Staff,Are there opportunities for students to collaborate on faculty-led projects,8,Research,84,FALSE
+2023-10-08,G,Faculty and Staff,Is there a way to see which faculty members have received awards or grants recently,8,Academic Resources,,TRUE
+2023-10-08,G,Campus Infrastructure,Is there a quiet study zone or dedicated space on campus,3,Campus,73,FALSE
+2023-10-08,G,Campus Infrastructure,How is the campus maintained during adverse weather conditions,3,Campus,228,TRUE
+2023-10-08,G,Campus Infrastructure,Are there any ongoing construction or expansion projects,3,Campus,,TRUE
+2023-10-08,G,Academic Resources,Do students have access to professional or industry databases,9,Academic Resources,,TRUE
+2023-10-08,G,Academic Resources,Can I get digital access to course materials and textbooks,9,Academic Resources,212,FALSE
+2023-10-08,G,Academic Resources,Are there special resource kits or toolsets for hands-on courses,9,Academic Resources,,TRUE
+2023-10-08,G,Student Support Services,Are there transition programs for transfer students,11,Academic Resources,,TRUE
+2023-10-08,G,Student Support Services,How does the university support students during crisis situations,11,Student Health and Wellness,,TRUE
+2023-10-08,G,Student Support Services,Is there a dedicated helpline for addressing immediate academic concerns,11,Academic Resources,44,FALSE
+2023-10-08,G,Events and Campus Culture,How can I propose or invite a guest speaker to the university,6,Feedback,,TRUE
+2023-10-08,G,Events and Campus Culture,Are there any innovation or entrepreneurial challenges held on campus,6,Campus,,TRUE
+2023-10-08,G,Events and Campus Culture,Do student organizations host events open to the entire student body,6,Campus,77,FALSE
+2023-10-08,G,Policies and Procedures,Where can I find information about the university's sustainability initiatives,19,Community Engagement,113,FALSE
+2023-10-08,G,Policies and Procedures,How are disciplinary actions managed and communicated,19,Academic Calendar,131,FALSE
+2023-10-08,G,Policies and Procedures,Are there any specific guidelines for off-campus behavior or involvement,19,Academic Calendar,,TRUE
+2023-10-08,G,Post-Graduation,Does the university track the career trajectories of its alumni,2,Alumni,,TRUE
+2023-10-08,G,Post-Graduation,Are there resources available for alumni seeking career changes,2,Alumni,,TRUE
+2023-10-08,G,Post-Graduation,How can I stay engaged with the university after graduating,2,Alumni,,TRUE
+2023-10-08,G,Local Surroundings,Are there guided tours or trips to explore the local heritage and history,15,Community Engagement,,TRUE
+2023-10-08,G,Local Surroundings,Which local businesses offer partnerships or discounts to students,15,Financial Information,138,FALSE
+2023-10-08,G,Local Surroundings,Is there a community bulletin or board where local events are posted,15,Community Engagement,,TRUE
+2023-10-08,G,Online Learning and Technology,Can I access remote software or tools for my coursework,10,Information Technology,,TRUE
+2023-10-08,G,Online Learning and Technology,Is there a virtual reality or augmented reality lab for students,10,Academic Resources,,TRUE
+2023-10-08,G,Online Learning and Technology,How does the university support students with limited internet access,10,Accessibility,,TRUE
+2023-10-08,G,Safety and Security,Are there protocols in place for natural disasters like earthquakes or floods,4,Emergency and Safety,228,FALSE
+2023-10-08,G,Safety and Security,How are cybersecurity threats managed for university digital resources,4,Information Technology,144,TRUE
+2023-10-08,G,Safety and Security,Does the university offer self-defense or safety workshops,4,Emergency and Safety,,TRUE
+2023-10-08,G,Admission Changes and Updates,How can I update or modify my application once submitted,5,Admissions,,TRUE
+2023-10-08,G,Admission Changes and Updates,Are there pre-admission events or webinars I can attend,5,Admissions,,TRUE
+2023-10-08,G,Admission Changes and Updates,Is it possible to apply for dual degrees or interdisciplinary programs,5,Admissions,,TRUE
+2023-10-08,G,Feedback and Improvement,Are there committees or panels where students can participate in decision-making,14,Student Organizations,185,TRUE
+2023-10-08,G,Feedback and Improvement,How are new initiatives or programs introduced based on student feedback,14,Feedback,223,FALSE
+2023-10-08,G,Feedback and Improvement,Is there an open forum or town hall where students can voice concerns,14,Feedback,223,FALSE
+2023-10-11,H,Study Abroad and Exchanges,How many study abroad and exchange programs does the university offer,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Which countries or institutions are partnered with the university for these programs,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there short-term summer programs available in addition to semester or year-long exchanges,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,What disciplines or majors have the most opportunities for study abroad,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there language immersion programs available,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,What are the eligibility criteria for participating in a study abroad program,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Is there a separate application process for exchange programs,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,How competitive is the selection process for popular destinations,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there interviews or essays required for the application,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,How does tuition work for study abroad Do I pay my home institution or the host institution,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there any scholarships or grants specifically for students wishing to study abroad,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Will my current financial aid package apply when studying abroad,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there any hidden costs or fees associated with the exchange program,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,What resources are available to help students prepare culturally and academically for their time abroad,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there pre-departure orientations or workshops,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,How does the university handle visa and immigration processes for students,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Do I need specific health insurance or vaccinations before traveling,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,How do course credits transfer back to my home university,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Can I fulfill major minor or general education requirements while abroad,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,How can I ensure that my study abroad courses align with my academic goals,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Will studying abroad delay my graduation date,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Does the university assist with finding housing or accommodation abroad,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are students typically placed in dorms homestays or independent housing,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,What is the average cost of living in the exchange destination,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there resources or guides on navigating daily life in the host country,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,What support structures are in place for students facing challenges while abroad,1,Study Abroad and Exchanges,285,TRUE
+2023-10-11,H,Study Abroad and Exchanges,How does the university handle emergencies or crises in the host country,1,Study Abroad and Exchanges,285,FALSE
+2023-10-11,H,Study Abroad and Exchanges,Are there mental health resources or counseling available for students overseas,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Is there a point of contact or liaison at both the home and host institutions,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there re-entry or readjustment workshops for students returning from abroad,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,How can I share or leverage my abroad experience in my academic and professional journey,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,H,Study Abroad and Exchanges,Are there alumni networks for specific study abroad programs,1,Study Abroad and Exchanges,,TRUE
+2023-10-11,I,Transportation and Parking,What are the different types of parking permits available for students faculty and visitors,18,Transportation and Parking,,TRUE
+2023-10-11,I,Transportation and Parking,Where are the main parking lots or structures located relative to key campus buildings,18,Transportation and Parking,,TRUE
+2023-10-11,I,Transportation and Parking,How does overnight parking work especially for residential students,18,Transportation and Parking,,TRUE
+2023-10-11,I,Transportation and Parking,Are there specific parking accommodations or areas for eco-friendly or electric vehicles,18,Transportation and Parking,,TRUE
+2023-10-11,I,Transportation and Parking,If a parking permit is sold out or unavailable are there alternative transportation recommendations or nearby public parking options,18,Transportation and Parking,,TRUE
+2023-10-11,J,Housing,What types of on-campus housing options are available (eg dormitories apartments suites),13,Housing,10,FALSE
+2023-10-11,J,Housing,Are there themed or specialized housing options such as honors housing or international student communities,13,Housing,,TRUE
+2023-10-11,J,Housing,How are roommates assigned and is there an option to request a specific roommate,13,Housing,,TRUE
+2023-10-11,J,Housing,What amenities are included in the housing options (eg Wi-Fi laundry kitchen facilities),13,Housing,,TRUE
+2023-10-11,J,Housing,Are there housing options that accommodate specific needs such as disability-accessible rooms or gender-inclusive housing,13,Housing,,TRUE
+2023-10-11,K,Athletics,What intercollegiate sports teams does the university offer and in which divisions do they compete,12,Athletics,,TRUE
+2023-10-11,K,Athletics,Are there intramural or club sports available for students who wish to participate recreationally,12,Athletics,,TRUE
+2023-10-11,K,Athletics,What is the process for trying out for a varsity team or receiving an athletic scholarship,12,Athletics,,TRUE
+2023-10-11,K,Campus,Where can students access the athletic facilities such as gyms swimming pools and tracks and what are their operating hours,3,Campus,13,FALSE
+2023-10-11,K,Athletics,How can students get involved in non-playing roles such as sports management event coordination or athletic training,12,Athletics,,TRUE
+2023-10-11,L,Athletics,What is the history and tradition of the university's athletics program,12,Athletics,,TRUE
+2023-10-11,L,Athletics,Are there any recent championship titles or notable achievements by the athletic teams,12,Athletics,,TRUE
+2023-10-11,L,Athletics,How does the university support student-athletes in balancing academics and sports,12,Athletics,,TRUE
+2023-10-11,L,Athletics,Are there dedicated athletic training or rehabilitation facilities for injured athletes,12,Athletics,,TRUE
+2023-10-11,L,Athletics,How can students and fans support the teams such as attending games joining supporter clubs or purchasing merchandise,12,Athletics,,TRUE
+2023-10-11,M,Research,What are the key research areas or disciplines the university is renowned for,16,Research,,TRUE
+2023-10-11,M,Research,Are there any specific research centers or institutes affiliated with the university,16,Research,,TRUE
+2023-10-11,M,Research,How can undergraduate students participate in or initiate research projects,16,Research,,TRUE
+2023-10-11,M,Research,What funding or grant opportunities are available for research projects at both the undergraduate and graduate levels,16,Research,,TRUE
+2023-10-11,M,Research,Are there collaborations or partnerships with industries other universities or organizations that foster joint research projects,16,Research,,TRUE
+2023-10-11,M,Research,How does the university facilitate interdisciplinary research across different departments,16,Research,,TRUE
+2023-10-11,M,Research,What platforms or events does the university offer for researchers to showcase their findings such as conferences or symposiums,16,Research,,TRUE
+2023-10-11,M,Research,Are there mentorship opportunities available for students seeking guidance in their research endeavors,16,Research,154,FALSE
+2023-10-11,M,Research,How does the university support the publication and dissemination of research outcomes,16,Research,,TRUE
+2023-10-11,M,Research,Are there any recent or notable research breakthroughs or discoveries made at the university,16,Research,,TRUE
+2023-10-11,N,Graduation,What are the requirements students need to fulfill in order to be eligible for graduation,2,Graduation,,TRUE
+2023-10-11,N,Graduation,How and when do students apply for graduation and is there a deadline,2,Graduation,110,TRUE
+2023-10-11,N,Graduation,Are there ceremonies for both winter and spring graduations How do they differ,2,Graduation,,TRUE
+2023-10-11,N,Graduation,How many tickets can each graduating student obtain for guests and are there provisions to request additional tickets,2,Graduation,,TRUE
+2023-10-11,N,Graduation,What is the attire for the graduation ceremony and where can students obtain or rent academic regalia,2,Graduation,335,FALSE
+2023-10-11,N,Graduation,Are there specific events or activities planned for graduating seniors in the weeks leading up to the ceremony,2,Graduation,,TRUE
+2023-10-11,N,Graduation,Where can students and families find information about parking accommodations and other logistical details for the graduation day,2,Graduation,,TRUE
+2023-10-11,N,Graduation,Are there provisions for students or guests with disabilities during the graduation ceremony,2,Graduation,,TRUE
+2023-10-11,N,Graduation,How does the university handle the distribution of diplomas or transcripts post-ceremony,2,Graduation,338,FALSE
+2023-10-11,N,Graduation,Are there alumni association events or induction ceremonies taking place during or shortly after graduation,2,Graduation,,TRUE
+2023-10-11,O,Graduation,What exactly is a graduation ceremony and why is it important,2,Graduation,,TRUE
+2023-10-11,O,Graduation,How do I know if I've met all the criteria to graduate,2,Graduation,,TRUE
+2023-10-11,O,Graduation,How do I register or sign up to be a part of the graduation ceremony,2,Graduation,,TRUE
+2023-10-11,O,Graduation,What do I wear for the ceremony Is there a specific outfit or robe,2,Graduation,335,TRUE
+2023-10-11,O,Graduation,Where and when will the graduation take place How long does it usually last,2,Graduation,,TRUE
+2023-10-11,O,Graduation,Can my family and friends attend If so how many people can I invite,2,Graduation,,TRUE
+2023-10-11,O,Graduation,Will I receive my actual diploma during the ceremony or is it mailed to me later,2,Graduation,338,TRUE
+2023-10-11,O,Graduation,Is there a rehearsal or walkthrough for the ceremony Should I attend it,2,Graduation,,TRUE
+2023-10-11,O,Graduation,"What's the significance of the ""cap and gown"" and how do I wear them correctly",2,Graduation,,TRUE
+2023-10-11,O,Graduation,Are there any traditions or specific actions I should be aware of during the ceremony like moving a tassel or shaking hands,2,Graduation,,TRUE
+2023-10-11,P,Academic Calendar,What are academic policies and why are they important for students to know,9,Academic Calendar,,TRUE
+2023-10-11,P,Academic Calendar,How do I find a comprehensive list of all academic policies for the university,9,Academic Calendar,,TRUE
+2023-10-11,P,Academic Calendar,Are there specific policies about attendance and participation in classes,9,Academic Calendar,,TRUE
+2023-10-11,P,Academic Calendar,What happens if I miss an exam or a major assignment deadline,9,Academic Calendar,99,FALSE
+2023-10-11,P,Academic Calendar,How does the university handle academic dishonesty or plagiarism,9,Academic Calendar,131,FALSE
+2023-10-11,P,Academic Calendar,Is there a policy for requesting accommodations for disabilities or health conditions,9,Accessibility,105,FALSE
+2023-10-11,P,Academic Calendar,Can I retake a class if I don't do well And how does that affect my academic record,9,Academic Calendar,,TRUE
+2023-10-11,P,Academic Calendar,Are there rules about transferring credits from other institutions or taking courses outside the university,9,Academic Calendar,,TRUE
+2023-10-11,P,Academic Calendar,What should I do if I feel a grade I received isn't fair or accurate,9,Academic Calendar,,TRUE
+2023-10-11,P,Academic Calendar,How do academic warnings probation and suspensions work And what can I do if I'm in one of these situations,9,Academic Calendar,,TRUE
