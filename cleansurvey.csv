@@ -1,4 +1,4 @@
-Timestamp,YearOfStudy,EnglishFirstLanguage,Query,Respondent,Duplicate ID,Test,Topic,ChatMatch,TrueMatch,Reason,MatchedQuery,Word2Vec_similarity,Topic_TSNE
+Date,YearOfStudy,EnglishFirstLanguage,Query,Respondent,Duplicate ID,Test,Topic,ChatMatch,TrueMatch,Reason,MatchedQuery,Word2Vec_similarity,Topic_TSNE
 2023-10-10,3,TRUE,where is the nicol building located,1,0,FALSE,Campus,,,,,,"170.3932342529297,-172.3666687011719"
 2023-10-10,3,TRUE,when does the caf open,1,1,FALSE,Campus,,,,,,"170.3932342529297,-172.3666687011719"
 2023-10-10,3,TRUE,where can i check my courses,2,,TRUE,Multiple Topics,,-1,,what courses do you offer,0.7254129,"-152.05892944335938,507.543701171875"
